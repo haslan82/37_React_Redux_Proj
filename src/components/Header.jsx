@@ -1,6 +1,8 @@
 import { MdAddChart } from "react-icons/md";
 import { useDispatch } from "react-redux";
-import { modalFunc } from "../../redux/modalSlice";
+import { modalFunc } from "../redux/modalSlice";
+
+
 
 const Header = () => {
 

@@ -3,7 +3,7 @@ import { BsThreeDots } from "react-icons/bs";
 
 const ProductCard = ({dt}) => {
 
-const [openEdit, setOpenEdit] = useState(false)
+const [openEdit, setOpenEdit] = useState(false);
 
   return (
     <div className='w-[200px] h-[200px] relative m-2 rounded-md' >
@@ -12,9 +12,17 @@ const [openEdit, setOpenEdit] = useState(false)
 {<div className="text-lg font-semibold">{dt?.name} </div>}
 {<div>{dt?.price}€</div>}
     </div>
-    <div className="absolute top-0 right-2">
+    <div onClick={()=> setOpenEdit(!openEdit) } className="absolute top-5 right-2">
     <BsThreeDots color="white" size={24}/>
     </div>
+    {
+      openEdit && (
+        <div className="bg-black border border-white text-white absolute top-0 right-2 p-2 text ">
+        <div className="cursor-pointer">Sil</div>
+        <div className="cursor-pointer">Güncelle</div>
+        </div>
+      )
+    }
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import { IoClose } from "react-icons/io5";
 import { useDispatch } from "react-redux";
-import { modalFunc } from "../../redux/modalSlice";
+import { modalFunc } from "../redux/modalSlice";
 
 const Modal = ({ title, content, btnext, btnFunc }) => {
     const dispatch = useDispatch();
