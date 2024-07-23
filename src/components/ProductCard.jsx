@@ -1,6 +1,10 @@
+import { useState } from "react";
 import { BsThreeDots } from "react-icons/bs";
 
 const ProductCard = ({dt}) => {
+
+const [openEdit, setOpenEdit] = useState(false)
+
   return (
     <div className='w-[200px] h-[200px] relative m-2 rounded-md' >
     <img className='w-full h-full  rounded-md' src="{dt?.url} " alt="" />
@@ -15,4 +19,4 @@ const ProductCard = ({dt}) => {
   )
 }
 
-export default ProductCard
+export default ProductCard;
