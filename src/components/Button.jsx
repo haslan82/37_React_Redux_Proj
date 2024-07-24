@@ -1,9 +1,14 @@
+import React from "react";
 
-const Button = ({onClick, btnText} ) => {
+const Button = ({ btnText, onClick }) => {
   return (
-    <button className='w-full h-10 bg-indigo-600 mt-4 rounded-md border-transparent
-     flex items-center text-white justify-center' onClick={onClick}>{btnText}</button>
-  )
-}
+    <button
+      onClick={onClick}
+      className="w-full h-8 bg-indigo-600 text-white hover:bg-indigo-500 rounded-md mt-3"
+    >
+      {btnText}
+    </button>
+  );
+};
 
 export default Button;
