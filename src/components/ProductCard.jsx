@@ -18,10 +18,10 @@ const ProductCard = ({ dt }) => {
 
   return (
     <div className="w-[200px] h-[200px] relative m-2 rounded-md  ">
-      {/*  // ! object cover nasıl yerleştiririm */}
+      {/*  */}
       <img className="w-full h-full  rounded-md  "
        src={dt?.url} alt="" />
-      <div className="absolute left-0 bottom-0 bg-blue-300 text-white-full px-2 ">
+      <div className="absolute left-0 bottom-0 bg-blue-300 text-white rounded-md px-2 ">
         <div className="text-lg font-semibold ">{dt?.name} </div>
         <div>{dt?.price}€</div>
       </div>
