@@ -3,7 +3,7 @@ Bu proje redux yapısını ele alarak kodlanmıştır. Ürün oluşturma, sepete
 
 
 
-# Kullanılan Kütüphaneler
+## Kullanılan Kütüphaneler
 
     -  @reduxjs/toolkit
     -  @testing-library/jest-dom
@@ -24,10 +24,10 @@ Bu proje redux yapısını ele alarak kodlanmıştır. Ürün oluşturma, sepete
 
 
 
-#  Designed by <a href="https://www.linkedin.com/in/h%C3%BCseyin-aslan-128519203/" target="_blank">Hüseyin ASLAN</a> 
+##  Designed by <a href="https://www.linkedin.com/in/h%C3%BCseyin-aslan-128519203/" target="_blank">Hüseyin ASLAN</a> 
 
 
-# Video Kaynağı
+#### Video Kaynağı
 
 https://www.youtube.com/watch?v=pdSviluj-5Y
 
