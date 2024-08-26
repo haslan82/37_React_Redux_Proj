@@ -1,13 +1,6 @@
 # React_Redux-Proje
 Bu proje redux yapısını ele alarak kodlanmıştır. Ürün oluşturma, sepete ekleme, çıkarma ve güncelleyip silme işlemlerini yapar.
 
-## Kullanılan teknolojiler
-@reduxjs/toolkit
-react
-react-dom
-react-icons
-react-redux
-react-router-dom
 
 
 # Kullanılan Kütüphaneler
@@ -27,7 +20,7 @@ react-router-dom
 
 ## Gif
 
-![](/public/ice%20gif.gif)
+![](/public/Aug-26-2024%2009-10-16.gif)
 
 
 
