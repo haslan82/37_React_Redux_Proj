@@ -1,6 +1,6 @@
 # React_Redux-Proje
-Bu proje redux yapısını ele alarak kodlanmıştır. Ürün oluşturma, sepete ekleme, çıkarma ve güncelleyip silme işlemlerini yapar.
 
+Bu proje redux yapısını ele alarak kodlanmıştır. Ürün oluşturma, sepete ekleme, çıkarma ve güncelleyip silme işlemlerini yapar.
 
 
 ## Kullanılan Kütüphaneler
@@ -18,13 +18,13 @@ Bu proje redux yapısını ele alarak kodlanmıştır. Ürün oluşturma, sepete
     -  web-vitals
 
 
-## Gif
+### Gif
 
 ![](/public/Aug-26-2024%2009-10-16.gif)
 
 
 
-##  Designed by <a href="https://www.linkedin.com/in/h%C3%BCseyin-aslan-128519203/" target="_blank">Hüseyin ASLAN</a> 
+###  Designed by <a href="https://www.linkedin.com/in/h%C3%BCseyin-aslan-128519203/" target="_blank">Hüseyin ASLAN</a> 
 
 
 #### Video Kaynağı
